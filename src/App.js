@@ -1,7 +1,9 @@
 import React from 'react';
 import Header from '../src/components/Header';
+import Article from './components/Article';
 import Menu from './components/Menu/menu';
 import Main from './components/Main';
+import Aside from './components/Aside';
 import Footer from './components/Footer/footer';
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
       <Header/>
       <Menu/>
       <Main/>
+      <Article/>
+      <Aside/>
       <Footer/>
       <h1>Tecnology & Programming!!!</h1>
     </div>
