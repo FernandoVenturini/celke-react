@@ -1,9 +1,11 @@
 import React from "react";
 
-export function Header() {
+function Header() {
     return (
         <>
-            <Header>CABECALHO</Header>
+            <h1>Header</h1>
         </>
     );
 }
+
+export default Header;
