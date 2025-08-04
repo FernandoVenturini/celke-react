@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 import React from 'react';
-import Header from './components/Header/header';
 import Article from './components/Article';
-=======
 import React, { useState } from 'react';
 import Header from './components/Header/header';
->>>>>>> 7a79ccb1 (creating usestate)
 import Menu from './components/Menu/menu';
 import Main from './components/Main';
 import Aside from './components/Aside';
@@ -13,11 +9,10 @@ import Footer from './components/Footer/footer';
 import Comment from './components/Comment';
 
 function App() {
-<<<<<<< HEAD
-=======
 
   const [name, setName] = useState('Celke!');
   const [age, setAge] = useState('23');
+  const [email, setEmail] = useState('fernandoventurini9@hotmail.com');
 
 {/*
   functions Welcome(props) {
@@ -30,7 +25,6 @@ function App() {
     }
   }
 */}
->>>>>>> 7a79ccb1 (creating usestate)
 
   const comment = {
     date: new Date(),
@@ -65,6 +59,13 @@ function App() {
       <button onClick={ () => setAge('44')}>
         Alterar
       </button>
+      <hr/>
+      <h3>E-mail: {email}</h3>
+      <button
+        onClick={ () => setEmail('devfernandouk@gmail.com')}>
+          Alterar
+      </button>
+
     </div>
   );
 }
