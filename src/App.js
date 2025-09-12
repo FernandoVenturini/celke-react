@@ -1,10 +1,26 @@
 import React from 'react';
 
-export function App() {
+import { Container, Conteudo, Footer, Header, Menu } from './styles';
+
+function App() {
     return (
-        <>
-            <h1>Hello, World!</h1>
-            <p>Welcome to my React application.</p>
-        </>
+        <Container>
+            <Header>
+                <p>LOGO</p>
+            </Header>
+            
+            <Menu>MENU</Menu>
+
+            <Conteudo>
+                <span>Listar Usuarios</span>
+            </Conteudo>
+
+            <Footer>
+                <p>&copy. Todos os direitos reservados. 2025</p>
+            </Footer>
+
+        </Container>
     );
 }
+
+export default App;
