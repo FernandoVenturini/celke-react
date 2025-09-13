@@ -1,4 +1,3 @@
-import React from 'react';
 import Article from './components/Article';
 import React, { useState } from 'react';
 import Header from './components/Header/header';
@@ -7,6 +6,7 @@ import Main from './components/Main';
 import Aside from './components/Aside';
 import Footer from './components/Footer/footer';
 import Comment from './components/Comment';
+
 
 function App() {
 
