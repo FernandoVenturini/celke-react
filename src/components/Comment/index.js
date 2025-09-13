@@ -11,7 +11,6 @@ function Comment(props) {
             <Avatar user={props.author} />
             <span>{props.author.name}</span><br/>
             <span>{props.text}</span><br/>
-            <span>{props.date}</span><br/>
             <span>{formatDate(props.date)}</span><br/>
         </>
     );
