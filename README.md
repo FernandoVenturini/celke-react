@@ -10,4 +10,6 @@
 ### Rodar o projeto React
     -> npm start
 
+### Instalando React-router-dom
+	-> npm install react-router-dom
 
