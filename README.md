@@ -13,3 +13,6 @@
 ### Instalando React-router-dom
 	-> npm install react-router-dom
 
+### Instalando o axios:
+    -> npm install --save axios
+
